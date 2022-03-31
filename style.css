@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #333;
+}
+
+.clr {
+  clear: both;
+}
+
+.container {
+  max-width: 25rem;
+  background: #fff;
+  margin: auto;
+  margin-top: 1.5rem;
+  padding-bottom: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title {
+  font-size: 3rem;
+  padding: 1rem 1rem;
+  margin: 1rem 1rem;
+}
+
+#add-input {
+  display: block;
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 75%;
+  border: 1.5vwpx rgb(17, 16, 16) solid;
+  padding: 5px;
+  height: 30px;
+}
+
+#title-style {
+  color: #571506;
+}
+
+#add-button {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.1rem;
+  background: #333;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.container #item-1 {
+  float: left;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+input.strike ~ span {
+  text-decoration: line-through;
+}
+
+#actualCheckbox {
+  height: 17.5px;
+  width: 17.5px;
+  cursor: pointer;
+  background-color: #eee;
+}
+
+input:checked {
+  background-color: #2196f3;
+}
+
+#list {
+  list-style: none;
+}
